@@ -15,29 +15,29 @@ export const obterRecomendadosAsync = async () => {
 };
 
 export const obterEmAltaAsync = async () => {
-  return await tmdbRequest(`/movie/top_rated/?${FINAL_ENDPOINT}`);
+  return await tmdbRequest(`/movie/top_rated?${FINAL_ENDPOINT}`);
 };
 
 export const obterAcaoAsync = async () => {
-  return await tmdbRequest(`/discover/movie/?with_genres=28&${FINAL_ENDPOINT}`);
+  return await tmdbRequest(`/discover/movie?with_genres=28&${FINAL_ENDPOINT}`);
 };
 
 export const obterComediaAsync = async () => {
-  return await tmdbRequest(`/discover/movie/?with_genres=35&${FINAL_ENDPOINT}`);
+  return await tmdbRequest(`/discover/movie?with_genres=35&${FINAL_ENDPOINT}`);
 };
 
 export const obterTerrorAsync = async () => {
-  return await tmdbRequest(`/discover/movie/?with_genres=27&${FINAL_ENDPOINT}`);
+  return await tmdbRequest(`/discover/movie?with_genres=27&${FINAL_ENDPOINT}`);
 };
 
 export const obterRomanceAsync = async () => {
   return await tmdbRequest(
-    `/discover/movie/?with_genres=10749&${FINAL_ENDPOINT}`
+    `/discover/movie?with_genres=10749&${FINAL_ENDPOINT}`
   );
 };
 
 export const obterDocumentariosAsync = async () => {
-  return await tmdbRequest(`/discover/movie/?with_genres=99&${FINAL_ENDPOINT}`);
+  return await tmdbRequest(`/discover/movie?with_genres=99&${FINAL_ENDPOINT}`);
 };
 
 export const obterInformacoesFilmeAsync = async (
