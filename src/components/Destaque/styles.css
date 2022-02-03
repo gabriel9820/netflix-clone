@@ -1,0 +1,97 @@
+.destaque {
+  height: 100vh;
+}
+
+.destaque-vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.destaque-horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 15%, transparent 85%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 0px 150px 30px;
+}
+
+.destaque-nome {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.destaque-info {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15px;
+  display: flex;
+}
+
+.destaque-info-relevancia,
+.destaque-info-ano,
+.destaque-info-temporadas {
+  margin-right: 15px;
+}
+
+.destaque-info-relevancia {
+  color: #46d369;
+}
+
+.destaque-descricao {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #999;
+  max-width: 40%;
+}
+
+.destaque-botoes {
+  margin-top: 15px;
+  display: flex;
+}
+
+.destaque-botoes-botao-assistir,
+.destaque-botoes-botao-adicionar-lista {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+
+.destaque-botoes-botao-assistir:hover,
+.destaque-botoes-botao-adicionar-lista:hover {
+  opacity: 0.7;
+}
+
+.destaque-botoes-botao-assistir {
+  background-color: #fff;
+  color: #000;
+}
+
+.destaque-botoes-botao-adicionar-lista {
+  background-color: #333;
+  color: #fff;
+}
+
+.destaque-generos {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #999;
+}
+
+@media (max-width: 760px) {
+  .destaque {
+    height: 90vh;
+  }
+
+  .destaque-descricao {
+    max-width: 100%;
+    margin-right: 30px;
+  }
+}
