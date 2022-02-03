@@ -6,7 +6,7 @@
   <img alt="Bonieky Lacerda" src="https://img.shields.io/badge/Created%20by%3A-Bonieky Lacerda-%236D5CCD" />
   <img alt="Gabriel Alves" src="https://img.shields.io/badge/Developed%20by%3A-Gabriel Alves-%23DD3B3F" />
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-%2398C611" />
-  <img alt="Typescript" src="https://img.shields.io/badge/Main%20language-Typescript-%232F74C0" /> <br />
+  <img alt="Typescript" src="https://img.shields.io/badge/Main%20language-Typescript-%232F74C0" /> 
 </p>
 
 <br />
@@ -21,13 +21,13 @@ O projeto em questão se trata de um clone da página principal da Netflix e tem
 
 ## :heavy_check_mark: Tabela de Conteúdos
 
-- [:bookmark: Descrição](#-bookmark--descri--o)
-- [:heavy_check_mark: Tabela de Conteúdos](#-heavy-check-mark--tabela-de-conte-dos)
-- [:bulb: Tecnologias Utilizadas](#-bulb--tecnologias-utilizadas)
-- [:computer: Demonstração](#-computer--demonstra--o)
-- [:wrench: Rodando o Projeto](#-wrench--rodando-o-projeto)
-- [:memo: Licença](#-memo--licen-a)
-- [:wave: Social](#-wave--social)
+- [:bookmark: Descrição](#bookmark-descrição)
+- [:heavy_check_mark: Tabela de Conteúdos](#heavy_check_mark-tabela-de-conteúdos)
+- [:bulb: Tecnologias Utilizadas](#bulb-tecnologias-utilizadas)
+- [:computer: Demonstração](#computer-demonstração)
+- [:wrench: Rodando o Projeto](#wrench-rodando-o-projeto)
+- [:memo: Licença](#memo-licença)
+- [:wave: Social](#wave-social)
 
 <br />
 
@@ -74,6 +74,7 @@ $ npm run
 ## :memo: Licença
 
 Este projeto está sob a licença [MIT](LICENSE).
+
 <br />
 
 ## :wave: Social
