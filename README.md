@@ -42,6 +42,8 @@ O projeto em questão se trata de um clone da página principal da Netflix e tem
 
 ## :computer: Demonstração
 
+[Netflix UI Clone - Github Pages](https://gabriel9820.github.io/netflix-clone/)
+
 <br />
 
 ## :wrench: Rodando o Projeto
